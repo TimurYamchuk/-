@@ -69,7 +69,6 @@ public:
 
     void Delete()
     {
-        // Mark the student as deleted (set name, surname, and number to nullptr)
         delete[] name;
         delete[] surname;
         delete[] number;
